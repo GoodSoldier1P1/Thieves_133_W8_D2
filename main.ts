@@ -39,3 +39,45 @@ prices[0] = '$100;
 
 function myFunc(a: number, b: number): number {}
 // A: It is saying that a number should be returned, but nothing is being returned
+
+
+// CODEWARS
+
+/*  
+
+KATA:
+Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
+
+Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
+
+SOLUTION:
+
+function paperwork(n, m) {
+  if (n < 0){
+    return 0
+  } else if (m < 0){
+    return 0
+  } else {
+    return n*m
+  }
+}
+
+
+
+KATA:
+
+Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
+
+For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
+
+
+SOLUTION:
+
+const quarterOf = (month) => {
+  if (month <=  3) return 1
+  if (month <=  6) return 2
+  if (month <=  9) return 3
+  return 4
+}
+
+*/
